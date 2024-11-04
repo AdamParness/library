@@ -1,3 +1,73 @@
-h1 {
-    color:red;
+body, html {
+    margin: 0;
+    padding: 0;
 }
+
+.header {
+    width: 100vw;
+    height: 20vh;
+    background-color: deepskyblue;
+    position: relative;
+}
+
+.left {
+    position: absolute;
+    left: 15px;
+    bottom: 50px;
+}
+
+.right {
+    position: absolute;
+    right: 15px;
+    bottom: 50px;
+}
+
+object {
+    width: 30px;
+    height: 30px;
+    display: inline;
+}
+
+h1{
+    display: inline;
+}
+
+.content {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center; 
+    align-items: center;   
+    gap: 100px;
+}
+
+.grid-item {
+    border-left: 5px solid deepskyblue;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height:350px;
+    width: 250px;
+    background-color:  #ece3e3;
+    border-radius: 1rem; 
+    /*background-color: deepskyblue;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+.green {
+    border-color: green;
+    background-color: green;
+    color: white;
+}
+
+.red {
+    border-color: red;
+    background-color: red;
+    color: white;
+}
+
+
+
